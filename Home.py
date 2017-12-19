@@ -8,7 +8,7 @@ from LocalFileServices.SymbolListOP import SymbolListOperation
 
 symbol_list=SymbolListOperation.getStockSymbols()
 count=0
-
+print("Liril")
 for symbol in symbol_list['SYMBOL']:
     symbol=str(symbol)
     print(symbol)

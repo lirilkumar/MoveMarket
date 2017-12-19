@@ -1,3 +1,4 @@
+# importing all packagesw created
 from Utility.DateOP import DateOperation
 from DatabaseOP.StockFileOP import FileOperation
 from WebServices.WebOP import WebOperation
@@ -15,6 +16,7 @@ for symbol in symbol_list['SYMBOL']:
     # f=FileOperation(symbol)
     # f.start()
     # time.sleep(10)
+
     # f=None;
 
 
